@@ -1,0 +1,44 @@
+{
+    "meta": {
+        "lang": "en"
+    },
+    "nav": {
+        "inicio": "Home",
+        "nosotros": "About us",
+        "servicios": "Services",
+        "servicios1": "Soil studies",
+        "servicios2": "Quality control",
+        "proyectos": "Projects",
+        "contacto": "Contact us",
+        "idioma": "Language"
+    },
+    "inicio": {
+        "texto-inicial": "",
+        "btn-contactanos": "Contact us",
+        "info-contacto": " ",
+        "titulo-servicios": "OUR SERVICES",
+        "servicio1": "Estudios de suelos",
+        "servicio2": "Control de calidad",
+        "servicio3": "Nose",
+        "titulo-nosotros": "SOBRE NOSOTROS",
+        "texto-nosotros": "In 2004, the consulting engineer with a Master's degree in Soil Mechanics, Oscar Osvaldo Jirón Boza, seeing the need that Nicaragua had, in the field of engineering, to technically and quantitatively develop the branch of geotechnical studies and materials of construction, founded the engineering company Geotecnia de Nicaragua (GEONIC), which is a company that generally carries out engineering studies and provides research services in the field of geology and geotechnics.",
+        "titulo-proyectos": "PROYECTOS"
+    },
+    "estudios-suelos":{
+        "titulo": "SOIL STUDIES"
+    },
+    "nosotros":{
+        "titulo":"ABOUT US",
+        "contenido": ""
+    },
+    "proyectos":{
+        "titulo": "OUR PROJECTS"
+    },
+    "datos-contacto":{
+        "titulo": "CONTACT US",
+        "tel": "Phone number",
+        "tel-desc": "Or send us a message on our WhatsApp",
+        "email": "E-Mail",
+        "ubi": "Our location"
+    }
+}

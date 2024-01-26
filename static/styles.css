@@ -1,0 +1,194 @@
+.logo{
+    width: 90%;
+    height:fit-content;
+}
+.nav-tuneado {
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+}
+.banner{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.texto-derecha{
+    color:white;
+    width: 50vw ;
+    position: absolute;
+    top:35vh !important;
+    left:10vw !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+}
+.info{
+    color:white;
+    width: fit-content;
+    position: absolute;
+    top:65vh !important;
+    right:10vw !important;
+}
+.azul{
+    background-color: #0b293d;
+    padding: 1% !important;
+    padding-bottom: 2rem !important;
+}
+.texto-blanco{
+    color:white;
+}
+.footer-tuneado{
+    background-color: #dbdbdb;
+    padding: 5% !important;
+}
+.navbar-nav{
+    --bs-nav-link-color: #0f3d56 !important;
+    --bs-nav-link-hover-color: #0b293d !important;
+}
+.btn-contacto{
+    background-color: #af5e27;
+    margin: 1.5rem !important;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-border-color: #a05929;
+    --bs-btn-hover-bg: #a05929;
+}
+.btn-servicios{
+    margin:1rem !important;
+    --bs-btn-border-color: #0b293d !important;
+    --bs-btn-hover-border-color:#0b293d !important;
+}
+.btn-servicios:hover, .card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2) !important;
+}
+.card{
+    margin-bottom: 2rem !important;
+}
+.servicios-lista{
+    max-width: 60% !important;
+}
+.icon-link>.bi, .bi-box{
+    height: 2.5rem !important;
+    width: 2rem !important;
+}
+
+.nav-ul{
+    font-size: 1.1rem !important;
+}
+.btn{
+    padding: 1rem !important;
+}
+.banner-azul{
+    height: 40vh !important;
+}
+.banner-blanco{
+    background-color:white !important;
+    color:black !important;
+}
+.banner-inicio{
+    --bs-gutter-x: 0rem !important; 
+    position:relative !important; 
+    display: inline-block !important;
+}
+.accordion{
+    margin-bottom: 2.5rem !important;
+    width: 80% !important;
+}
+/*OSCURECE LA IMAGEN DEL BANNER DE INICIO*/
+.img-oscura {
+    position: relative;
+}
+
+.img-oscura::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.5); /* Puedes ajustar la opacidad cambiando el último valor */
+    pointer-events: none; /* Permite interactuar con la imagen subyacente */
+}
+.descripcion-servicio{
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    margin-left: 6vh !important;
+}
+.imagen-servicio{
+    margin-top: 5vh !important;
+    width:100% !important;
+    height: 90% !important;
+    object-fit: cover !important;
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-link{
+    gap: 0.8rem !important;
+
+}
+
+
+h2{
+    margin:5vh !important;
+}
+h3, .card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+h2, h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+li,a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 2% !important;
+    color:#0b293d;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .logo {
+      width: 80%;
+    }
+    .servicios-lista{
+        max-width: 100% !important;
+    }
+    .texto-derecha{
+        width: 80vw;
+        top: 20vh !important;
+    }
+    .info{
+        top: 72vh !important;
+    }
+    .descripcion-servicio{
+        margin-left: 1vw !important;
+    }
+    .nav-ul{
+        font-size: 0.95rem !important;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 500px) {
+    .logo {
+        width: 70%;
+      }
+  }
